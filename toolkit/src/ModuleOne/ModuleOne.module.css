@@ -1,0 +1,23 @@
+.container {
+  height: 20rem;
+  width: 20rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid mediumblue;
+  border-radius: 0.3rem;
+  margin: 1rem;
+}
+
+.container button {
+  background-color: rgb(226, 118, 223, 0.9);
+  border-radius: 0.2rem;
+  border: 2px solid rgb(226, 118, 223);
+  font-size: 1.8rem;
+  color: lavenderblush;
+  padding: 0.3rem 0.8rem;
+  box-shadow: 0.3px 0.3rem 0.8rem rgb(226, 118, 223);
+}
+
+.container button:active {
+  transform: scale(0.95);
+}

@@ -1,0 +1,16 @@
+.container {
+  height: 20rem;
+  width: 30rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid mediumvioletred;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.container p {
+  width: 100%;
+  text-align: center;
+}

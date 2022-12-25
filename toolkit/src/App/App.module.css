@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main svg {
+  height: 2rem;
+  width: 2rem;
+  fill: darkgreen;
+}
